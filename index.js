@@ -2,7 +2,8 @@
 
 
 // 1) no longer has DOM node 'main#main'
-document.querySelector('main#main').remove();
+// document.querySelector('main#main').remove();
+main.remove();
 
 // 2) has a 'newHeader' variable that points to node 'h1#victory'
 const newHeader = document.createElement('h1');
