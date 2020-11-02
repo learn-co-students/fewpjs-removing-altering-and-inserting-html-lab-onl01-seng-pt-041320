@@ -11,5 +11,6 @@ const newHeader = document.createElement('h1');
 newHeader.id = 'victory'
 
 //has a 'newHeader' variable that points to node 'h1#victory' with "YOUR-NAME is the champion" inside:
-newHeader.innerHTML = 'Patricia is the champion';
+// newHeader.innerHTML = 'Patricia is the champion';
+newHeader.innerHTML = `{YOUR-NAME} is the champion`;
 newHeader.className = 'victory';
